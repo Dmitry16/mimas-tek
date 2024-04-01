@@ -5,6 +5,7 @@ import { Box, Stack, Typography, List, ListItem, ListItemText, ListItemButton,
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { styled } from '@mui/material/styles';
 import useDialog from '../hooks/useDialog';
+import ConstructionIcon from '@mui/icons-material/Construction';
 
 const StyledListItem = styled(ListItem)(({ theme }) => ({
     color: theme.palette.text.darkBlue,
@@ -14,22 +15,13 @@ const Home = () => {
     const [DialogComponent, openDialog] = useDialog();
 
     return (
-        <Box sx={{ mx: 8 }}>
-            <Stack spacing={2}>
+        <Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            {/* <Stack spacing={2}> */}
+                <ConstructionIcon color="primary" sx={{ fontSize: 100 }} />
                 <Typography variant="h5" component="h1" color="text.darkBlue">
-                    Life Strategy
+                    UNDER CONSTRUCTION...
                 </Typography>
-                <Typography variant="body1" component="h1" color="text.darkBlue">
-                    Is an integrated set of choices and actions that enables a person to achieve
-                    the best possible outcomes in order to have the desired life.
-                </Typography>
-                <Typography variant="h5" component="h1" color="text.darkBlue">
-                    Design your desired Life
-                </Typography>
-                <Typography variant="h5" component="h1" color="text.darkBlue">
-                    Create your Life Strategy
-                </Typography>
-            </Stack>
+            {/* </Stack> */}
         </Box>
     );
 };

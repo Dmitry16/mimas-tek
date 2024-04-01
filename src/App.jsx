@@ -5,31 +5,27 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Menu from './components/Menu';
+import Routes from './router/Routes';
 
 export default function App() {
   return (
-    <Container maxWidth="xl" sx={{
-      // backgroundColor: '#ddddee'
-    }}>
-      <Container maxWidth="md"
-        sx={{
-          minHeight: '100vh',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          // backgroundColor: 'rgba(255, 255, 120, 0.6)',
-          // backgroundColor: '#f5f5aa',
-        }}>
-        <Box sx={{}}>
+    <Container maxWidth="lg" height="100vh"
+      sx={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+      }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
           <Menu />
+          <Routes />
         </Box>
-        <Box sx={{}}>
-          <Content />
-        </Box>
-        <Box sx={{mb: 2}}>
-          <Footer />
-        </Box>
-      </Container>
+        <Footer />
     </Container>
   );
 };
