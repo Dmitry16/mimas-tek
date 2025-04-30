@@ -13,6 +13,7 @@ const Menu = () => {
             <Toolbar sx={{}} disableGutters>
                 <ButtonRouter text='Home' href={'/mimas-tek/'}/>
                 {/* <ButtonRouter text='Login' href={'/login'}/> */}
+                <ButtonRouter text='Skillset' href={'/mimas-tek/skillset'}/>
                 <ButtonRouter text='About' href={'/mimas-tek/about'}/>
             </Toolbar>
         </Box>
