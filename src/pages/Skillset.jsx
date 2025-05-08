@@ -13,7 +13,7 @@ const Skillset = () => {
                         Programming Languages:
                     </Typography>
                     <Typography variant="body1" color="text.darkBlue">
-                        JavaScript, TypeScript, Python
+                        JavaScript, TypeScript, Python, SQL
                     </Typography>
                 </Box>
                 <Box sx={{ mt: 2 }}>
@@ -34,6 +34,14 @@ const Skillset = () => {
                 </Box>
                 <Box sx={{ mt: 2 }}>
                     <Typography variant="h5" component="h2" color="text.darkBlue">
+                        Databases:
+                    </Typography>
+                    <Typography variant="body1" color="text.darkBlue">
+                        PostgreSQL, MySQL, MongoDB, Redis, Firebase
+                    </Typography>
+                </Box>
+                <Box sx={{ mt: 2 }}>
+                    <Typography variant="h5" component="h2" color="text.darkBlue">
                         DevOps and Cloud:
                     </Typography>
                     <Typography variant="body1" color="text.darkBlue">
@@ -45,7 +53,7 @@ const Skillset = () => {
                         Tools:
                     </Typography>
                     <Typography variant="body1" color="text.darkBlue">
-                        Git, Docker, Postman
+                        Git, Postman, Jira, Slack, Figma
                     </Typography>
                 </Box>
                 <Box sx={{ mt: 2 }}>
@@ -53,7 +61,7 @@ const Skillset = () => {
                         Soft Skills:
                     </Typography>
                     <Typography variant="body1" color="text.darkBlue">
-                        Communication, Teamwork, Problem-solving
+                        Teamleading, Communication, Problem-solving
                     </Typography>
                 </Box>
                 <Box sx={{ mt: 2 }}>
