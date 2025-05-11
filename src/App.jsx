@@ -20,6 +20,7 @@ export default function App() {
           sx={{
             display: 'flex',
             flexDirection: 'column',
+            background: 'transparent',
           }}
         >
           <Menu />

@@ -12,9 +12,12 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.15.5",
     "@mui/material": "latest",
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
     "react": "latest",
     "react-dom": "latest",
-    "react-router-dom": "^6.21.3"
+    "react-router-dom": "^6.21.3",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest",

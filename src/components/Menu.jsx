@@ -9,8 +9,9 @@ const Menu = () => {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'center',
+            background: 'transparent',
         }}>
-            <Toolbar sx={{}} disableGutters>
+            <Toolbar sx={{background: 'transparent'}} disableGutters>
                 <ButtonRouter text='Home' href={'/mimas-tek/'}/>
                 {/* <ButtonRouter text='Login' href={'/login'}/> */}
                 <ButtonRouter text='Skillset' href={'/mimas-tek/skillset'}/>
